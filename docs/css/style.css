@@ -210,7 +210,9 @@ img {
   border-bottom: 1px solid #ea655f;
 }
 .social-icons-wrapper {
-  width: 290px;
+  /* width: 290px; */
+  width: 150px;
+  margin: 0 auto;
   margin-bottom: 12px;
 }
 @media (min-width: 768px) {
@@ -220,7 +222,7 @@ img {
 }
 @media (min-width: 1200px) {
   .social-icons-wrapper {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 }
 .social-icons-link {
@@ -350,7 +352,9 @@ img {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    width: 130px;
+    width: 80px;
+    /* 
+		width: 130px; */
   }
 }
 .nav-icons-link i {
@@ -362,10 +366,10 @@ img {
 .nav-icons-link {
   font-size: 32px;
   color: #000;
-}
-.nav-icons-link .fa-linkedin-in:hover,
-.nav-icons-link .fa-linkedin-in:active {
-  color: #0077b5;
+  /* .fa-linkedin-in:hover,
+	.fa-linkedin-in:active {
+		color: #0077b5;
+	} */
 }
 .nav-icons-link .fa-github:hover,
 .nav-icons-link .fa-github:active {
@@ -373,7 +377,7 @@ img {
 }
 .nav-icons-link .fa-vk:hover,
 .nav-icons-link .fa-vk:active {
-  color: #45668e;
+  color: #0077b5;
 }
 .nav-menu-icon-line {
   position: relative;
