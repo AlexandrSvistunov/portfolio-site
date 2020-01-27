@@ -1,0 +1,449 @@
+.project-header {
+	padding-bottom: 40px;
+
+	@media (min-width: 768px) {
+		padding-bottom: 50px;
+	}
+
+	@media (min-width: 1200px) {
+		padding-bottom: 90px;
+	}
+
+}
+
+.page-project-nav {
+	margin-bottom: 50px;
+
+	@media (min-width: 768px) {
+		margin-bottom: 55px;
+	}
+
+	@media (min-width: 1200px) {
+		margin-bottom: 85px;
+	}
+}
+
+.project-header-content {
+	text-align: center;
+}
+
+.project-header-title {
+
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 35px;
+
+	span::after {
+		width: calc(~'100% + 8px');
+	}
+
+	@media (min-width: 768px) {
+		font-size: 42px;
+		letter-spacing: 0.03em;
+		margin-bottom: 45px;
+
+		span::after {
+			width: calc(~'100% + 15px');
+			bottom: 0px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 48px;
+
+		margin-bottom: 45px;
+
+		span::after {
+			bottom: 5px;
+			left: -10px;
+			width: calc(~'100% + 17px');
+		}
+	}
+}
+
+.project-header-scills {
+	justify-content: center;
+}
+
+.project-scills-item {
+	width: auto;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.17px;
+
+	padding: 5px 10px;
+	margin-right: 10px;
+	margin-bottom: 7px;
+
+	&:nth-child(4) {
+		margin-right: 0;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	@media (min-width: 768px) {
+		margin-bottom: 0;
+
+		&:nth-child(4) {
+			margin-right: 10px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+	}
+}
+
+.item-html {
+	background-color: #ff861a;
+}
+
+.item-css {
+	background-color: #039be5;
+}
+
+.item-bootstrap {
+	background-color: #a062c7;
+}
+
+.item-js {
+	color: #fff;
+	background-color: #ffd200;
+}
+
+.item-jquery {
+	background-color: #044d85;
+}
+
+.item-php {
+	background-color: #777bb4;
+}
+
+.page-project-main-wrapper {
+
+	@media (min-width: 1200px) {
+		background-image: url(../img/main-page/bg-line.jpg);
+		background-position: center;
+		background-repeat: repeat-y;
+
+		margin-bottom: 70px;
+
+	}
+}
+
+.page-project-main-content {
+	margin-bottom: 30px;
+	flex-direction: column-reverse;
+
+	@media (min-width: 768px) {
+		margin-bottom: 55px;
+	}
+
+	@media (min-width: 1200px) {
+		flex-direction: row;
+		margin-bottom: 110px;
+	}
+}
+
+.page-project-img-wrapper {
+	box-shadow: 20px 20px 100px #c4dbe9;
+	margin-bottom: 60px;
+
+	@media (min-width: 768px) {
+		margin-bottom: 50px;
+	}
+
+	@media (min-width: 1200px) {
+		margin-bottom: 0;
+	}
+}
+
+.page-project-left-section {
+
+	@media (min-width: 768px) {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	@media (min-width: 1200px) {
+		width: 460px;
+		display: block;
+	}
+}
+
+.subsection {
+	@media (min-width: 768px) {
+		width: 340px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 100%;
+	}
+}
+
+.project-block-title {
+	font-size: 22px;
+	margin-bottom: 20px;
+
+	span::after {
+		height: 7px;
+	}
+
+	@media (min-width: 768px) {
+		span::after {
+			bottom: 0px;
+			height: 7px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 26px;
+		margin-bottom: 20px;
+
+		span::after {
+			bottom: 0px;
+			height: 7px;
+		}
+	}
+}
+
+.page-project-block-links {
+	margin-bottom: 45px;
+
+	@media (min-width: 768px) {
+		margin-bottom: 55px;
+	}
+
+	@media (min-width: 1200px) {
+		margin-bottom: 50px;
+
+	}
+}
+
+.project-block-links-list {
+	position: relative;
+	margin-bottom: 18px;
+
+	&::before {
+		position: absolute;
+		content: "";
+		width: 30px;
+		height: 30px;
+		top: 2px;
+		left: 5px;
+		background-repeat: no-repeat;
+	}
+
+	@media (min-width: 1200px) {
+		padding-left: 45px;
+
+		&::before {
+			top: 2px;
+			left: 5px;
+		}
+
+	}
+}
+
+.project-demo {
+	&::before {
+		background-image: url(../img/project/browser-icon.svg);
+	}
+}
+
+.project-github {
+
+	&::before {
+		background-image: url(../img/project/github-brands.svg);
+	}
+}
+
+.project-block-links {
+	color: #2a86b3;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.03em;
+	padding-left: 40px;
+
+	&:hover {
+		color: #ed574f;
+	}
+
+
+	@media (min-width: 1200px) {
+		letter-spacing: 0.03em;
+		padding-left: 0;
+	}
+}
+
+.page-project-block-about {
+	margin-bottom: 40px;
+
+	@media (min-width: 1200px) {
+		margin-bottom: 55px;
+	}
+
+}
+
+.project-block-about-text {
+	color: #161616;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+}
+
+.title-details {
+	margin-bottom: 20px;
+
+	@media (min-width: 1200px) {
+		margin-bottom: 10px;
+	}
+
+}
+
+.page-project-block-details {
+	display: block;
+
+	@media (min-width: 768px) {
+		width: 100%;
+	}
+
+	@media (min-width: 1200px) {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 460px;
+		margin-bottom: 0px;
+		padding-right: 5px;
+
+		font-size: 16px;
+	}
+
+
+	dt {
+		margin: 0;
+		font-weight: 700;
+
+		@media (min-width: 1200px) {
+			margin-bottom: 30px;
+			width: 160px;
+			line-height: 1.2;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+
+			&:nth-child(7) {
+				margin-bottom: 65px;
+			}
+		}
+
+	}
+
+	dd {
+		margin: 0;
+		margin-bottom: 10px;
+
+		&:nth-child(8) {
+			margin-bottom: 20px;
+		}
+
+		@media (min-width: 768px) {}
+
+		@media (min-width: 1200px) {
+			width: 290px;
+			color: #161616;
+			line-height: 1.5;
+
+			margin-bottom: 0;
+		}
+
+		a {
+			color: #039be5;
+			line-height: 1.2;
+
+			&:hover {
+				color: #ea655f;
+			}
+		}
+	}
+}
+
+
+.page-project-pagination {
+	width: 100%;
+}
+
+.left-pagination {
+	display: none;
+
+	@media (min-width: 768px) {
+		display: block;
+	}
+}
+
+.page-project-pagination-link-wrapper {
+	text-align: center;
+	width: 290px;
+	height: 60px;
+
+	@media (min-width: 768px) {
+		width: 340px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 555px;
+		height: 80px;
+	}
+}
+
+.page-project-pagination-link {
+	display: block;
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.45;
+	letter-spacing: 0.6px;
+	background-color: #333333;
+
+	height: 100%;
+	width: 100%;
+	padding: 18px;
+
+	text-decoration: none;
+
+	&:hover {
+		background-color: #656565;
+	}
+
+	&:active {
+		background-color: #141414;
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 22px;
+		padding: 25px;
+	}
+}
+
+.page-project-footer {
+
+	@media (min-width: 768px) {
+		padding-top: 85px;
+	}
+
+	@media (min-width: 1200px) {
+		padding-top: 30px;
+	}
+}
