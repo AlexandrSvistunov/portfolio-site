@@ -1484,7 +1484,6 @@ img {
 @media (min-width: 1200px) {
   .project-card-title {
     font-size: 32px;
-    margin-bottom: 10px;
   }
 }
 .project-card-title-link {
